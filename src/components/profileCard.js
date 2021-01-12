@@ -25,7 +25,7 @@ export default function ProfileCard({ infor }) {
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <div className="twPc-div">
-              <a className="twPc-bg twPc-block"></a>
+              <span className="twPc-bg twPc-block a"></span>
 
               <div>
                 <div className="twPc-button">
@@ -51,40 +51,40 @@ export default function ProfileCard({ infor }) {
 
                 <div className="twPc-divUser mt-3">
                   <div className="twPc-divName">
-                    <a href="#">{`${FirstName} ${LastName}`}</a>
+                    <span className="a">{`${FirstName} ${LastName}`}</span>
                   </div>
                   <span>
-                    <a href="#">
+                    <span className="a">
                       <span style={{ fontSize: "10px" }}>
                         Website: {` ${URL}`}
                       </span>
-                    </a>
+                    </span>
                   </span>
                 </div>
 
                 <div className="twPc-divStats">
                   <ul className="twPc-Arrange">
                     <li className="twPc-ArrangeSizeFit">
-                      <a href="#" title="9.840 Tweet">
+                      <span className="a" title="9.840 Tweet">
                         <span className="twPc-StatLabel twPc-block">
                           Gender
                         </span>
                         <span className="twPc-StatValue">{Gender}</span>
-                      </a>
+                      </span>
                     </li>
                     <li className="twPc-ArrangeSizeFit">
-                      <a href="" title="885 Following">
+                      <span className="a" title="885 Following">
                         <span className="twPc-StatLabel twPc-block">
                           Phone Number
                         </span>
                         <span className="twPc-StatValue">{PhoneNumber}</span>
-                      </a>
+                      </span>
                     </li>
                     <li className="twPc-ArrangeSizeFit">
-                      <a href="" title="1.810 Followers">
+                      <span className="a" title="1.810 Followers">
                         <span className="twPc-StatLabel twPc-block">Email</span>
                         <span className="twPc-StatValue">{Email}</span>
-                      </a>
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -97,28 +97,28 @@ export default function ProfileCard({ infor }) {
               <div className="twPc-divStats">
                 <ul className="twPc-Arrange">
                   <li className="twPc-ArrangeSizeFit">
-                    <a href="#" title="9.840 Tweet">
+                    <span className="a" title="9.840 Tweet">
                       <span className="twPc-StatLabel twPc-block">
                         Card Type
                       </span>
                       <span className="twPc-StatValue">{CreditCardType}</span>
-                    </a>
+                    </span>
                   </li>
                   <li className="twPc-ArrangeSizeFit">
-                    <a href="#" title="885 Following">
+                    <span className="a" title="885 Following">
                       <span className="twPc-StatLabel twPc-block">
                         Credit Card Number
                       </span>
                       <span className="twPc-StatValue">{CreditCardNumber}</span>
-                    </a>
+                    </span>
                   </li>
                   <li className="twPc-ArrangeSizeFit">
-                    <a href="#" title="9.840 Tweet">
+                    <span className="a" title="9.840 Tweet">
                       <span className="twPc-StatLabel twPc-block">
                         Payment Method
                       </span>
                       <span className="twPc-StatValue">{PaymentMethod}</span>
-                    </a>
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -126,28 +126,28 @@ export default function ProfileCard({ infor }) {
               <div className="twPc-divStats">
                 <ul className="twPc-Arrange">
                   <li className="twPc-ArrangeSizeFit">
-                    <a href="#" title="9.840 Tweet">
+                    <span className="a" title="9.840 Tweet">
                       <span className="twPc-StatLabel twPc-block">
                         Longitude
                       </span>
                       <span className="twPc-StatValue">{Longitude}</span>
-                    </a>
+                    </span>
                   </li>
                   <li className="twPc-ArrangeSizeFit">
-                    <a href="#" title="1.810 Followers">
+                    <span className="a" title="1.810 Followers">
                       <span className="twPc-StatLabel twPc-block">
                         Latitude
                       </span>
                       <span className="twPc-StatValue"> {Latitude}</span>
-                    </a>
+                    </span>
                   </li>
                   <li className="twPc-ArrangeSizeFit">
-                    <a href="#" title="885 Following">
+                    <span className="a" title="885 Following">
                       <span className="twPc-StatLabel twPc-block">
                         Telephone
                       </span>
                       <span className="twPc-StatValue">{PhoneNumber}</span>
-                    </a>
+                    </span>
                   </li>{" "}
                 </ul>
               </div>
@@ -155,30 +155,30 @@ export default function ProfileCard({ infor }) {
               <div className="twPc-divStats">
                 <ul className="twPc-Arrange">
                   <li className="twPc-ArrangeSizeFit">
-                    <a href="#" title="9.840 Tweet">
+                    <span className="a" title="9.840 Tweet">
                       <span className="twPc-StatLabel twPc-block">
                         Mac Address
                       </span>
                       <span className="twPc-StatValue">{MacAddress}</span>
-                    </a>
+                    </span>
                   </li>
                   <li className="twPc-ArrangeSizeFit">
-                    <a href="#" title="1.810 Followers">
+                    <span className="a" title="1.810 Followers">
                       <span className="twPc-StatLabel twPc-block">
                         Last Login
                       </span>
                       <span className="twPc-StatValue">
                         {new Date(LastLogin).toUTCString()}
                       </span>
-                    </a>
+                    </span>
                   </li>
                   <li className="twPc-ArrangeSizeFit">
-                    <a href="#" title="885 Following">
+                    <span className="a" title="885 Following">
                       <span className="twPc-StatLabel twPc-block">
                         Domain Name
                       </span>
                       <span className="twPc-StatValue">{DomainName}</span>
-                    </a>
+                    </span>
                   </li>{" "}
                 </ul>
               </div>
