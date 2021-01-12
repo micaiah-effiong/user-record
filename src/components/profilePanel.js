@@ -7,8 +7,8 @@ export default function ProfilePanel() {
   const [step] = useState(20);
   const [profiles, setProfiles] = useState([]);
   const [showProfiles, setShowProfiles] = useState([]);
-  const [prevIndex, setPrevIndex] = useState(0);
-  const [nextIndex, setNextIndex] = useState(step);
+  // const [prevIndex, setPrevIndex] = useState(0);
+  // const [nextIndex, setNextIndex] = useState(step);
   const [page, setPage] = useState(1);
 
   const handelSubmit = (event) => {
@@ -57,13 +57,18 @@ export default function ProfilePanel() {
     }
   };
 
-  useEffect(async () => {
-    const { data } = await axios
-      .get("/")
-      .catch((e) => alert("An error occured while loading the page"));
-    const profs = data.records.profiles;
-    setProfiles(profs);
-    setShowProfiles(profs);
+  useEffect(() => {
+    const fetchData = async () => {
+      const { data } = await axios.get(
+        "https://api.enye.tech/v1/challenge/records"
+      );
+
+      const profs = data.records.profiles;
+      setProfiles(profs);
+      setShowProfiles(profs);
+    };
+
+    fetchData().catch((e) => alert("An error occured while loading the page"));
   }, []);
 
   // window.hpm = handlePageMovement;
@@ -103,7 +108,8 @@ export default function ProfilePanel() {
             <div className="row">
               <legend>Filter</legend>
               <div className="col">
-                Payment Method
+                <strong> Payment Method </strong>
+                <hr />
                 <div className="form-check">
                   <input
                     type="checkbox"
@@ -155,7 +161,8 @@ export default function ProfilePanel() {
               </div>
 
               <div className="col">
-                Last Seen
+                <strong>Gender</strong>
+                <hr />
                 <div>
                   <input
                     type="radio"
