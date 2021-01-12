@@ -68,7 +68,7 @@
   font-weight: 700;
   line-height: 21px;
 }
-.twPc-divName a {
+.twPc-divName .a {
   color: inherit !important;
 }
 .twPc-divStats {
@@ -93,7 +93,7 @@ ul.twPc-Arrange {
   padding: 5px;
   vertical-align: top;
 }
-.twPc-ArrangeSizeFit a:hover {
+.twPc-ArrangeSizeFit .a:hover {
   text-decoration: none;
 }
 .twPc-StatValue {
