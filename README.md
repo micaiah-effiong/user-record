@@ -1,3 +1,3 @@
 # user-record
 
-Live site:
+Live site: https://user-record.netlify.app
