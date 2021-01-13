@@ -30,7 +30,7 @@ export default function ProfileCard({ infor }) {
               <div>
                 <div className="twPc-button">
                   <span
-                    className="twitter-follow-button"
+                    className="twitter-follow-button white"
                     data-show-count="false"
                     data-size="large"
                     data-show-screen-name="false"
@@ -51,10 +51,10 @@ export default function ProfileCard({ infor }) {
 
                 <div className="twPc-divUser mt-3">
                   <div className="twPc-divName">
-                    <span className="a">{`${FirstName} ${LastName}`}</span>
+                    <span className="a page-blue">{`${FirstName} ${LastName}`}</span>
                   </div>
                   <span>
-                    <span className="a">
+                    <span className="a page-black">
                       <span style={{ fontSize: "10px" }}>
                         Website: {` ${URL}`}
                       </span>
@@ -65,7 +65,7 @@ export default function ProfileCard({ infor }) {
                 <div className="twPc-divStats">
                   <ul className="twPc-Arrange">
                     <li className="twPc-ArrangeSizeFit">
-                      <span className="a" title="9.840 Tweet">
+                      <span className="a page-black" title="9.840 Tweet">
                         <span className="twPc-StatLabel twPc-block">
                           Gender
                         </span>
@@ -73,7 +73,7 @@ export default function ProfileCard({ infor }) {
                       </span>
                     </li>
                     <li className="twPc-ArrangeSizeFit">
-                      <span className="a" title="885 Following">
+                      <span className="a page-black" title="885 Following">
                         <span className="twPc-StatLabel twPc-block">
                           Phone Number
                         </span>
@@ -81,7 +81,7 @@ export default function ProfileCard({ infor }) {
                       </span>
                     </li>
                     <li className="twPc-ArrangeSizeFit">
-                      <span className="a" title="1.810 Followers">
+                      <span className="a page-black" title="1.810 Followers">
                         <span className="twPc-StatLabel twPc-block">Email</span>
                         <span className="twPc-StatValue">{Email}</span>
                       </span>
@@ -97,7 +97,7 @@ export default function ProfileCard({ infor }) {
               <div className="twPc-divStats">
                 <ul className="twPc-Arrange">
                   <li className="twPc-ArrangeSizeFit">
-                    <span className="a" title="9.840 Tweet">
+                    <span className="a page-blue" title="9.840 Tweet">
                       <span className="twPc-StatLabel twPc-block">
                         Card Type
                       </span>
@@ -105,7 +105,7 @@ export default function ProfileCard({ infor }) {
                     </span>
                   </li>
                   <li className="twPc-ArrangeSizeFit">
-                    <span className="a" title="885 Following">
+                    <span className="a page-blue" title="885 Following">
                       <span className="twPc-StatLabel twPc-block">
                         Credit Card Number
                       </span>
@@ -113,7 +113,7 @@ export default function ProfileCard({ infor }) {
                     </span>
                   </li>
                   <li className="twPc-ArrangeSizeFit">
-                    <span className="a" title="9.840 Tweet">
+                    <span className="a page-blue" title="9.840 Tweet">
                       <span className="twPc-StatLabel twPc-block">
                         Payment Method
                       </span>
@@ -126,7 +126,7 @@ export default function ProfileCard({ infor }) {
               <div className="twPc-divStats">
                 <ul className="twPc-Arrange">
                   <li className="twPc-ArrangeSizeFit">
-                    <span className="a" title="9.840 Tweet">
+                    <span className="a page-blue" title="9.840 Tweet">
                       <span className="twPc-StatLabel twPc-block">
                         Longitude
                       </span>
@@ -134,7 +134,7 @@ export default function ProfileCard({ infor }) {
                     </span>
                   </li>
                   <li className="twPc-ArrangeSizeFit">
-                    <span className="a" title="1.810 Followers">
+                    <span className="a page-blue" title="1.810 Followers">
                       <span className="twPc-StatLabel twPc-block">
                         Latitude
                       </span>
@@ -142,7 +142,7 @@ export default function ProfileCard({ infor }) {
                     </span>
                   </li>
                   <li className="twPc-ArrangeSizeFit">
-                    <span className="a" title="885 Following">
+                    <span className="a page-blue" title="885 Following">
                       <span className="twPc-StatLabel twPc-block">
                         Telephone
                       </span>
@@ -155,7 +155,7 @@ export default function ProfileCard({ infor }) {
               <div className="twPc-divStats">
                 <ul className="twPc-Arrange">
                   <li className="twPc-ArrangeSizeFit">
-                    <span className="a" title="9.840 Tweet">
+                    <span className="a page-blue" title="9.840 Tweet">
                       <span className="twPc-StatLabel twPc-block">
                         Mac Address
                       </span>
@@ -163,7 +163,7 @@ export default function ProfileCard({ infor }) {
                     </span>
                   </li>
                   <li className="twPc-ArrangeSizeFit">
-                    <span className="a" title="1.810 Followers">
+                    <span className="a page-blue" title="1.810 Followers">
                       <span className="twPc-StatLabel twPc-block">
                         Last Login
                       </span>
@@ -173,7 +173,7 @@ export default function ProfileCard({ infor }) {
                     </span>
                   </li>
                   <li className="twPc-ArrangeSizeFit">
-                    <span className="a" title="885 Following">
+                    <span className="a page-blue" title="885 Following">
                       <span className="twPc-StatLabel twPc-block">
                         Domain Name
                       </span>

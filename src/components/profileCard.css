@@ -69,7 +69,7 @@
   line-height: 21px;
 }
 .twPc-divName .a {
-  color: inherit !important;
+  color: #007bff;
 }
 .twPc-divStats {
   /*margin-left: 11px;*/
@@ -109,6 +109,18 @@ ul.twPc-Arrange {
   overflow: hidden;
   text-transform: uppercase;
   transition: color 0.15s ease-in-out 0s;
+}
+
+.white {
+  color: white;
+}
+
+.page-blue {
+  color: #007bff;
+}
+
+.page-black {
+  color: black;
 }
 
 /*FLIP CARD SECTION*/
